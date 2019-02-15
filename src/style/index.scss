@@ -1,0 +1,35 @@
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+body{
+    background: green;
+}
+
+.wcard{
+    border: 1px solid;
+    border-radius: 5%;
+    padding: 5px;
+    background: white;
+    height: 185px;
+    width: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-body{
+    text-align: center;
+    height: 50%;
+    font-size: 5em;
+}
+
+#cardtype{
+    font-size: 40px;
+}
+
+#cardtype2{
+    text-align: right;
+    font-size: 40px;
+    
+}
